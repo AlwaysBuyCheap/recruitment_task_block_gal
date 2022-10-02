@@ -5,6 +5,11 @@ las dos versiones.
 La primera sería la de los archivos RegistroCiudades.sol y scriptRegistroCiudades.js
 La segunda sería la de los archivos RegistroCiudadesMultiples.sol y scriptRegistroCiudadesMultiples.js
 
+Antes de ejecutar cualquier version hay que instalar las dependencias con el siguiente comando:
+```
+    npm install
+```
+
 Para ejecutar la primera version, utilizar el siguiente comando:
 ```
     tsc -p tsconfig.json
