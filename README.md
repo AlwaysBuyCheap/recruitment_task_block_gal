@@ -12,12 +12,16 @@ Antes de ejecutar cualquier version hay que instalar las dependencias con el sig
 
 Para ejecutar la primera version, utilizar el siguiente comando:
 ```
-    tsc -p tsconfig.json
     node scripts/scriptRegistroCiudades.js
 ```
 
 Para ejecutar la segunda version, utilizar el siguiente comando:
 ```
-    tsc -p tsconfig.json
     node scripts/scriptRegistroCiudadesMultiples.js
+```
+
+Si se realiza algun cambio en los archivos de typescript hay que ejecutar el siguiente comando
+para compilarlos:
+```
+    tsc -p tsconfig.json
 ```
